@@ -1,0 +1,135 @@
+body{
+    background-color:#0A192F;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand1{
+    flex: 1;
+    padding-left: 20px;
+    color: crimson;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+}
+.brand1:hover{
+    color: palevioletred;
+}
+.brand2{
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    color: #CCD6F6;
+    font-family:'Courier New', Courier, monospace;
+}
+.brand2 .ab:hover{
+    color: crimson;
+}
+.brand2 .con:hover{
+    color: crimson;
+}
+.brand2 .pr:hover{
+    color: crimson;
+}
+.brand2 .h:hover{
+    color: crimson;
+}
+.brand3{
+    flex: 1;
+    text-align: end;
+    padding-right: 20px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+.imgpeters{
+    border-radius: 50%;
+}
+.btn1{
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color:palevioletred;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+
+}
+.btn1:hover{
+    background-color: crimson;
+}
+.bio h1, .bio h2{
+    color: crimson;
+    margin-top: 0;
+}
+.bio h1:hover{
+    color: palevioletred;
+}
+.bio h2:hover{
+    color: palevioletred;
+}
+.about{
+    text-align: center;
+    line-height: 50px;
+    margin-top: 100px;
+}
+.about1:hover{
+    color: crimson;
+}
+.about p{
+    color: palevioletred;
+    font-size: 25px;
+}
+.about1{
+    color:#CCD6F6 ;
+    font-family:'Courier New', Courier, monospace;
+}
+.contact{
+    text-align: center;
+    margin-top: 80px;
+}
+.contact1:hover{
+    color: crimson;
+}
+.contact1{
+    color: #CCD6F6;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-family:'Courier New', Courier, monospace;
+}
+.contact2{
+    font-size: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.whts{
+    color: green;
+}
+.fb{
+    color: blue;
+}
+.gits{
+    color: red;
+}
+.lik{
+    color: hotpink;
+}
+.inst{
+    color: sienna;
+}
+footer{
+    font-size: 15px;
+    margin-top: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    background: black;
+    height: 50px;
+}
+footer:hover{
+    color: crimson;
+}
