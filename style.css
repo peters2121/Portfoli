@@ -24,7 +24,15 @@ body{
     color: #CCD6F6;
     font-family:'Courier New', Courier, monospace;
 }
-
+.ha{
+    color:#CCD6F6 ;
+}
+.haa{
+    color:#CCD6F6 ;
+}
+.haaa{
+    color:#CCD6F6 ;
+}
 .brand2 .ab:hover{
     color: palevioletred;
 }
@@ -119,13 +127,60 @@ body{
     color: palevioletred;
     font-size: 25px;
 }
+.project{
+    text-align: center;
+    line-height: 50px;
+    margin-top: 150px;
+}
+.project1{
+    color:#CCD6F6 ;
+    font-family:'Courier New', Courier, monospace;
+}
+.project2{
+    display: flex;
+}
+.netflix{
+    flex: 1;
+    background-image: url("./netflixpic.png");
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all .3s;
+}
+.netflix:hover{
+    transform: scale(1.4,1.8);
+}
+.signup{
+    flex: 1;
+    background-image: url(./sign2.png);
+    height: 300px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    transition: all .3s;
+}
+.signup:hover{
+    transform: scale(1.4,1.8);
+}
+.toggle{
+    flex: 1;
+    background-image: url("./tog2.png");
+    height: 300px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    transition: all .3s;
+}
+.toggle:hover{
+    transform: scale(1.4,1.8);
+}
 .about1{
     color:#CCD6F6 ;
     font-family:'Courier New', Courier, monospace;
 }
 .contact{
     text-align: center;
-    margin-top: 80px;
+    margin-top: 250px;
+    background-color: peru;
+    padding: 10px 20px;
 }
 .contact1:hover{
     color: crimson;
@@ -141,6 +196,10 @@ body{
     display: flex;
     justify-content: space-around;
 }
+.cond{
+    color: white;
+    font-size: 20px;
+}
 .whts{
     color: green;
 }
@@ -151,12 +210,12 @@ body{
     color: red;
 }
 .lik{
-    color: hotpink;
+    color: blue;
 }
 .inst{
     color: sienna;
 }
-footer{
+/* footer{
     font-size: 15px;
     margin-top: 100px;
     color: white;
@@ -167,4 +226,4 @@ footer{
 }
 footer:hover{
     color: crimson;
-}
+} */
