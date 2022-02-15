@@ -81,21 +81,36 @@ body{
 .about-container{
     display: flex;
     justify-content: space-around;
+    color: crimson;
+    margin-top: 50px;
+}
+.mi:hover{
+    color: white;
+}
+.abm:hover{
+    color: white;
+}
+.vi:hover{
+    color: white;
 }
 .mission{
     flex: 1;
     padding-left: 20px;
     padding-right: 20px;
+    box-sizing: border-box;
 }
 .vision{
     flex: 1;
     padding-left: 20px;
     padding-right: 20px;
+    box-sizing: border-box;
 }
 .about-me{
     flex: 1;
     padding-left: 20px;
     padding-right: 20px;
+    box-sizing: border-box;
+    
 }
 .about1:hover{
     color: crimson;
